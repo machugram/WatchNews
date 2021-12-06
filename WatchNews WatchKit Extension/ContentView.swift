@@ -9,10 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        
+        VStack{
+            Text("Wrist News")
+                .fontWeight(.bold)
+                .padding()
+                .font(.title2)
+            
+            Text("Daily News delivered on your wrist ")
+                .fontWeight(.thin)
+            
+            Spacer()
+            NavigationLink(
+                destination: ArticlesView(),
+                label: {
+                    Text("Read News")
+                })
+               
+            }
+
+        }
+        
+        
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
