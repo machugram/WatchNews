@@ -15,6 +15,10 @@
 		7BE239F526C5C9C600FCB03D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE239F426C5C9C600FCB03D /* ComplicationController.swift */; };
 		7BE239F726C5C9C700FCB03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE239F626C5C9C700FCB03D /* Assets.xcassets */; };
 		7BE239FA26C5C9C700FCB03D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BE239F926C5C9C700FCB03D /* Preview Assets.xcassets */; };
+		7BE23A0D26C5CAD800FCB03D /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23A0C26C5CAD800FCB03D /* ArticlesView.swift */; };
+		7BE23A1226C5CB1B00FCB03D /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23A1126C5CB1B00FCB03D /* Article.swift */; };
+		7BE23A1726C5CCB900FCB03D /* ArticleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23A1626C5CCB900FCB03D /* ArticleFetcher.swift */; };
+		7BE23A1C26C5D00700FCB03D /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE23A1B26C5D00700FCB03D /* ArticleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		7BE239F626C5C9C700FCB03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BE239F926C5C9C700FCB03D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BE239FB26C5C9C700FCB03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE23A0C26C5CAD800FCB03D /* ArticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
+		7BE23A1126C5CB1B00FCB03D /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		7BE23A1626C5CCB900FCB03D /* ArticleFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleFetcher.swift; sourceTree = "<group>"; };
+		7BE23A1B26C5D00700FCB03D /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 				7BE239F626C5C9C700FCB03D /* Assets.xcassets */,
 				7BE239FB26C5C9C700FCB03D /* Info.plist */,
 				7BE239F826C5C9C700FCB03D /* Preview Content */,
+				7BE23A0C26C5CAD800FCB03D /* ArticlesView.swift */,
+				7BE23A1126C5CB1B00FCB03D /* Article.swift */,
+				7BE23A1626C5CCB900FCB03D /* ArticleFetcher.swift */,
+				7BE23A1B26C5D00700FCB03D /* ArticleDetailView.swift */,
 			);
 			path = "WatchNews WatchKit Extension";
 			sourceTree = "<group>";
@@ -261,7 +273,11 @@
 			files = (
 				7BE239F326C5C9C600FCB03D /* WatchNewsApp.swift in Sources */,
 				7BE239F126C5C9C600FCB03D /* ContentView.swift in Sources */,
+				7BE23A1726C5CCB900FCB03D /* ArticleFetcher.swift in Sources */,
+				7BE23A1C26C5D00700FCB03D /* ArticleDetailView.swift in Sources */,
 				7BE239F526C5C9C600FCB03D /* ComplicationController.swift in Sources */,
+				7BE23A0D26C5CAD800FCB03D /* ArticlesView.swift in Sources */,
+				7BE23A1226C5CB1B00FCB03D /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
